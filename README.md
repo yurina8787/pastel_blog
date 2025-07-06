@@ -1,5 +1,7 @@
 # pastel_blog
 
+[GitHub Pagesで公開中](https://yurina8787.github.io/pastel_blog)
+
 このプロジェクトは、React（TypeScript）とViteを用いたシンプルなブログアプリケーションです。
 
 ## 概要
