@@ -9,6 +9,6 @@ export default defineConfig(({ mode }) => {
     const isGithubPages = process.env.GITHUB_PAGES === 'true' || mode === 'production';
     return {
         plugins: [react(), tailwindcss(), vitePluginRawMd()],
-        base: isGithubPages ? '/<リポジトリ名>/' : '/', // <リポジトリ名>はご自身のものに
+        base: isGithubPages ? '/pastel_blog/' : '/',
     } as UserConfig;
 });
